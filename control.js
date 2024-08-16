@@ -1,48 +1,71 @@
-//Função para validação de acesso
-function acessar() {
+// validar o acesso ao login
+// ----------------------------------------------------------------------------------------------------------------------------
+function acessar(){
     let loginEmail = document.getElementById('loginEmail').value;
     let loginSenha = document.getElementById('loginSenha').value;
-
-    if (!loginEmail || !loginSenha) {
-        alert("Favor preencher todos os campos");
+  
+       if(!loginEmail || !loginSenha){
+          alert('favor preencher todos os campos');
+  
+       }else{
+        // else{ alert('campos preenchisdos com sucesso'); }
+        window.location.hrefc = 'cadastro.html'
+       }
+ }
+  
+ // FUNÇÃO PARA ARMAZENAMENTO DE NOMES EM ARRAY
+ //------------------------------------------------------------------------------------------------------------------------
+ var dadosLista = [];
+ function salvarUser(){
+    let nomeUser = document.getElementById('nomeUser').value;
+  
+    if(nomeUser){
+       dadosLista.push(nomeUser);
+       // console.log(dadosLista);
+       criarLista()
+       document.getElementById('nomeUser').value = "";
+    }else{
+       alert('porfavor informe um nome para cadastro');
     }
-    else {
-        // alert("Campos preenchidos com sucesso");
-        window.location.href = 'cadastro.html'
-    };
-}
+  
+  
+ }
+//  ----------------------------------------------------------------------------------------------------------------------
+// Função para armazenamento de email de usuarios
+var dadosemail = [];
+function salvarEmail(){
+    let EmailUser = document.getElementById('EmailUser').value
+    if(EmailUser){
+        dadosemail.push(EmailUser);
+        criarLista()
+        document.getElementById('EmailUser').value = "";
 
-//Funçaõ para armazenamento de nomes em array
-var dadosLista = [];
-function salvarUser() {
-let nomeUser = document.getElementById('nomeUser').value;
-
-if(nomeUser){
-    dadosLista.push(nomeUser);
-    // console.log(dadosLista);
-    CriarLista();
-    document.getElementById('nomeUser').value = "";
-
-}else{
-    alert("Favor informe um nome para cadastro");
-}
-
-}
-// função para criar lista de usuario
-function CriarLista(){
-    let tabela = document.getElementById('tabela').innerHTML = "<tr><th>nome Usuario </th><th>Ações<th><tr>";
-    for(let i=0;i<=(dadosLista.length - 1);i++){
-        tabela += "<tr><td>" + dadosLista[i] + "</td><td><button type='button' onclick='Editar(parentNode.parentNode.rowIndex)'>Editar</button><button type='button' onclick='Excluir(parentNode.parentNode.rowIndex)'>Excluir</button></td></tr>";
-        document.getElementById('tabela').innerHTML = tabela;
+    }
+    else{
+        alert ("Porfavor informe um email")
     }
 }
-// função para editar nomes da lista
-function editar(i){
-    document.getElementById('nomeUser').value = dadosLista [(i-1)];
-    dadosLista.splice(dadosLista[(i-1)],1);
-}
-// Função para excluir nome de lista
-function excluir (i){
-    dadosLista.splice((i - 1),1);
-    document.getElementById('tabela').deleterow(i);
-}
+ // funçao para criar listas de usuario
+ // ----------------------------------------------------------------------------------------------------------------------
+ function criarLista(){
+     let tabela = document.getElementById('tabela').innerHTML = "<tr><th>Nome Usuario</th><th>Email</th><th>Acões</th></tr>";
+     for(let i=0;i <=(dadosLista.length - 1);i++){
+          tabela += "<tr><td>" + dadosLista[i] + "</td><td><button type='button' onclick='editar(parentNode.parentNode.rowIndex)'>Editar</button><button type='button' onclick='excluir(parentNode.parentNode.rowIndex)'>Excluir</button></td></tr>";
+       document.getElementById('tabela').innerHTML = tabela;
+     }
+  
+ }
+ // função para editar nomes de listas
+ // ----------------------------------------------------------------------------------------------------------------------
+ function editar(i){
+    document.getElementById('nomeUser').value = dadosLista[(i-1)]
+    document.getElementById('EmailUser').value = dadosLista[(i-1)]
+    dadosLista.splice(dadosLista[(i - 1)],1);
+ }  
+ // função para excluir nome de lista
+ // ----------------------------------------------------------------------------------------------------------------------
+ function excluir(i){
+    dadosLista.splice((i - 1), 1);
+    document.getElementById('tabela').deleteRow(i);
+  
+ }
