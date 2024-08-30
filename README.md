@@ -144,5 +144,6 @@ Limpa os campos de entrada.
 - O excluir(i) remove o usuário da lista.
 
 # Ferramentas Utilizadas
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20JavaScriptO&color=YELLOW&style=for-the-badge)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20HTML&color=RED&style=for-the-badge)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20CSS&color=BLUE&style=for-the-badge)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=Uso&message=%20JavaScriptO&color=YELLOW&style=for-the-badge)
