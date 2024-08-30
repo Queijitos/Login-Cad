@@ -1,6 +1,7 @@
 
 # Cadastro de Usuarios V0.1
 
+
 ### Descrição do Projeto:
 
 O projeto de cadastro de usuarios vem da ideia de conseguir inserir seu email e senha em um cadastro e entrar em um site onde você possa salvar seu email e seu nome de usuario, onde tambem e possivel você editar ou ate mesmo excluir oque você salvou, Tudo isso com o uso de JavaScript, CSS e HTML 
@@ -11,8 +12,8 @@ O projeto de cadastro de usuarios vem da ideia de conseguir inserir seu email e 
 - [Funcionalidades](#funcionalidades)
 - [Como abrir e rodar o codigo](#como-abrir-e-rodar-o-codigo)
 - [Aplicação](#❔como-funciona-o-codigo)
-- [Ferramentas Utilizadas](#ferramentas-utilizadas)
-- [Desenvolvedores]()
+- [Ferramentas Utilizadas](#⚒️-ferramentas-utilizadas)
+- [Desenvolvedores](#🕵️‍♂️-autores)
 
 # Funcionalidades
 Funcionalidades do projeto:
@@ -24,30 +25,30 @@ Funcionalidades do projeto:
 
 
 # Como Abrir e rodar o codigo
-## 📁 Acesso ao projeto
+## - 📁 Acesso ao projeto
 
 **Você pode Baixar o projeto por este [Link]() ou se quiser ver diretamente o codigo, use este Link a baixo:**
 
 ```https://github.com/Queijitos/Login-Cad.git```
 
-## 🛠️ Abrir e rodar o projeto
+## - 🛠️ Abrir e rodar o projeto
 
 
 **Para abrir e rodar o Projeto tendo o baixado, logo depois ir ate a pasta escolhida para o download, tambem pode ate ir para a pasta de donwloads**
-### 🔧  Extraindo a pasta 	
+### - 🔧  Extraindo a pasta 	
 **depois você tera que extrair a pasta do projeto**
-###	💻 Abrindo e rodando o codigo
+###	- 💻 Abrindo e rodando o codigo
 **entrando na pasta Você tera que entrar no arquivo de site ["login.html"](login.html),
 assim que entrar no site**
 ![](login.png)
 
 <br>
 
-**🛠️ Assim que você logar no site, você sera direcionado para o site de cadastro de usuarios e de email:**
+### **🛠️ - Assim que você logar no site, você sera direcionado para o site de cadastro de usuarios e de email:**
 ![](comeco.jpeg)
-**🛠️ Para seguir e salvar o seu usuario e senha você tera que ir Colocando no campo de Usuario e Email, suas informações:**
+### **🛠️ - Para seguir e salvar o seu usuario e senha você tera que ir Colocando no campo de Usuario e Email, suas informações:**
 ![](meio.jpeg)
-**🛠️ E por fim quando você apertar o botão de salvar, o codigo ira rodar e você fara com que fique salvo no sistema:**
+### **🛠️ - E por fim quando você apertar o botão de salvar, o codigo ira rodar e você fara com que fique salvo no sistema:**
 ![](fim.jpeg)
 
 # ❔ Como funciona o codigo?
@@ -109,12 +110,12 @@ Como funciona:
     dadosLista.splice(i, 1);
     criarLista();
     }``
-### 🎯 Declaração da variável global
+## 🎯 Declaração da variável Global:
 **javascript**
 
 var dadosLista = [];
 - Essa linha cria uma variável global chamada dadosLista, que é um array usado para armazenar objetos que representam os usuários, cada um com um nome e um e-mail.
-## Função para salvar usuário
+## 🎯 Função para salvar usuário
 
 - Obtém o valor dos campos de entrada com IDs nomeUser e EmailUser.
 - Verifica se ambos os campos foram preenchidos.
@@ -144,11 +145,9 @@ Limpa os campos de entrada.
 - O excluir(i) remove o usuário da lista.
 
 # ⚒️ Ferramentas Utilizadas
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=Utilizadp&message=%20HTML&color=RED&style=for-the-badge)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=Utilizado&message=%20HTML&color=RED&style=for-the-badge)
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=Utilizado&message=%20CSS&color=BLUE&style=for-the-badge)
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=Utilizado&message=%20JavaScriptO&color=YELLOW&style=for-the-badge)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=GLSL,TypeScript,Astro,Makefile,rust,GO,Python,Shell,Lua,)](https://github.com/anuraghazra/github-readme-stats)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=Utilizado&message=%20JavaScript&color=YELLOW&style=for-the-badge)
 
 # 🕵️‍♂️ Autores
 [<img src="141143618.jpg" width=115><br><sub>José Walter De Oliveira Junior</sub>](https://github.com/Queijitos) 
