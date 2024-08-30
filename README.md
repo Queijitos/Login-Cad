@@ -149,3 +149,6 @@ Limpa os campos de entrada.
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=Utilizado&message=%20JavaScriptO&color=YELLOW&style=for-the-badge)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=GLSL,TypeScript,Astro,Makefile,rust,GO,Python,Shell,Lua,)](https://github.com/anuraghazra/github-readme-stats)
+
+# Autores
+[<img src="141143618.jpg" width=115><br><sub>José Walter De Oliveira Junior</sub>](https://github.com/Queijitos) 
