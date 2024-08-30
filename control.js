@@ -9,7 +9,7 @@ function acessar(){
   
        }else{
         // else{ alert('campos preenchisdos com sucesso'); }
-        window.location.hrefc = 'cadastro.html'
+        window.location.href = 'cadastro.html'
        }
  }
   
