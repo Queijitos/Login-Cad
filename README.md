@@ -11,9 +11,9 @@ O projeto de cadastro de usuarios vem da ideia de conseguir inserir seu email e 
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Como abrir e rodar o codigo](#como-abrir-e-rodar-o-codigo)
-- [Aplicação](#❔como-funciona-o-codigo)
-- [Ferramentas Utilizadas](#⚒️-ferramentas-utilizadas)
-- [Desenvolvedores](#🕵️‍♂️-autores)
+- [Aplicação](#como-funciona-o-codigo)
+- [Ferramentas Utilizadas](#⚒-ferramentas-utilizadas)
+- [Desenvolvedores](#autores)
 
 # Funcionalidades
 Funcionalidades do projeto:
